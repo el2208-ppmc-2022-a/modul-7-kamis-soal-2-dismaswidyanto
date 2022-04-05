@@ -48,7 +48,7 @@ int main() {
 		}
 		else if(operator=='Z') {
 			if(main_stack->head==NULL) {
-				printf("Bottom of stack\n");
+				printf("Bottom of Stack\n");
 			}
 			else {
 				push(memory_stack,pop(main_stack));
