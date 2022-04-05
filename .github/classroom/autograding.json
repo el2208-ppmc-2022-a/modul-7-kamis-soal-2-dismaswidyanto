@@ -5,7 +5,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "+ 4\r\n+ 4\r\nP\r\nZ\r\nZ\r\nZ\r\nY\r\n+ 3\r\nY\r\n+ -7\r\nZ\r\nF",
-      "output": "Current Value : 8\r\nBottom of stack\r\nTop of stack\r\nFinal Value : 7",
+      "output": "Current Value : 8\r\nBottom of Stack\r\nTop of Stack\r\nFinal Value : 7",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -25,7 +25,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "+ 1\r\n+ 2\r\n+ 3\r\nP\r\nZ\r\nZ\r\nZ\r\nZ\r\nY\r\nY\r\nF",
-      "output": "Current Value : 6\r\nBottom of stack\r\nFinal Value : 3",
+      "output": "Current Value : 6\r\nBottom of Stack\r\nFinal Value : 3",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -35,7 +35,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "Z\r\nY\r\nF",
-      "output": "Bottom of stack\r\nTop of Stack\r\nFinal Value : 0",
+      "output": "Bottom of Stack\r\nTop of Stack\r\nFinal Value : 0",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -55,7 +55,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "+ 3\r\n+ 4\r\nZ\r\nZ\r\nZ\r\nY\r\nY\r\nY\r\nZ\r\nF",
-      "output": "Bottom of stack\r\nTop of Stack\r\nFinal Value : 3",
+      "output": "Bottom of Stack\r\nTop of Stack\r\nFinal Value : 3",
       "comparison": "included",
       "timeout": 1,
       "points": 10
