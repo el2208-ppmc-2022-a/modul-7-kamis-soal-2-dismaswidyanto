@@ -84,7 +84,7 @@
       "name": "9",
       "setup": "make soal-02",
       "run": "./soal-02",
-      "input": "+ 9\r\n- 9\r\n+ 3\r\n- 3\r\nF",
+      "input": "+ 9\r\n+ -9\r\n+ 3\r\n+ -3\r\nF",
       "output": "Final Value : 0",
       "comparison": "included",
       "timeout": 1,
