@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "+ 4\r\n+ 4\r\nP\r\nZ\r\nZ\r\nZ\r\nY\r\n+ 3\r\nY\r\n+ -7\r\nZ\r\nF",
+      "output": "Current Value : 8\r\nBottom of stack\r\nTop of stack\r\nFinal Value : 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "F",
+      "output": "Final Value : 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "+ 1\r\n+ 2\r\n+ 3\r\nP\r\nZ\r\nZ\r\nZ\r\nZ\r\nY\r\nY\r\nF",
+      "output": "Current Value : 6\r\nBottom of stack\r\nFinal Value : 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "Z\r\nY\r\nF",
+      "output": "Bottom of stack\r\nTop of Stack\r\nFinal Value : 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "+ 34\r\n+ 45\r\n+ 100\r\nY\r\nZ\r\nP\r\n+ 12\r\nY\r\nP\r\n+ 23\r\nF",
+      "output": "Top of Stack\r\nCurrent Value : 79\r\nTop of Stack\r\nCurrent Value : 91\r\nFinal Value : 114",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "+ 3\r\n+ 4\r\nZ\r\nZ\r\nZ\r\nY\r\nY\r\nY\r\nZ\r\nF",
+      "output": "Bottom of stack\r\nTop of Stack\r\nFinal Value : 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "+ 7\r\n+ 7\r\n+ 3\r\n+ 5\r\nF",
+      "output": "Final Value : 22",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "+ 7\r\n+ -7\r\nZ\r\nF",
+      "output": "Final Value : 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "+ 9\r\n- 9\r\n+ 3\r\n- 3\r\nF",
+      "output": "Final Value : 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "Y\r\n+5\r\nY\r\nZ\r\nY\r\nF",
+      "output": "Top of Stack\r\nTop of Stack\r\nFinal Value : 5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
